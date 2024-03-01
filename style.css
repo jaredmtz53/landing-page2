@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "ps2";
+    src: url(font/EmotionEngine-8ynA.ttf);
+}
+@font-face {
+    font-family: "ps2-bold";
+    src: url(font/EmotionEngineBold-YGnL.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "ps2", "Roboto", sans-serif;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    
+    /*temp color*/
+    background-color: black;
+    padding-bottom: 1000px;
+    
+}
+.first-column {
+    padding-bottom: 0px;
+    background-color: rgb(6, 13, 43);
+    
+
+}
+
+
+/* header */
+.header {
+    background-color: rgb(6, 9, 25);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.header-left, .header-right {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    height: 40px;
+}
+.logo-text, .header-link {
+    font-size: 20px;
+    color: rgb(57, 75, 147);
+}
+/*info body*/
+
+.info-body-image {
+    display: flex;
+}
+
+
+.info {
+    height: 200px;
+    width: 600px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(221, 222, 226);
+}
+.info-header {
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 60px;
+}
+.info-body {
+    font-size: 17px;
+    padding-bottom: 90px;
+}
+.iphone-image {
+    height: 480px;
+}
+
+.sign-up-button {
+    border-color: rgb(240, 241, 244);
+    background-color: rgb(6, 13, 43);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    padding: 20px 10px;
+    width: 200px;
+
+}
+
+
+/* Second row */
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 24, 60);
+}
+
+.playlist-container {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.playlist-header {
+   
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgb(240, 240, 240);
+    font-size: 40px;
+
+}
