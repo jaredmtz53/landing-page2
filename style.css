@@ -13,13 +13,10 @@
     
 }
 body {
-    display: flex;
-    flex-direction: column;
-    
     /*temp color*/
-    background-color: black;
-    padding-bottom: 1000px;
-    
+    background-color: rgb(255, 255, 255);
+    min-width: 1600px;
+    padding-bottom: 900px;
 }
 .first-column {
     padding-bottom: 0px;
@@ -57,10 +54,12 @@ body {
 
 .info-body-image {
     display: flex;
+    justify-content: space-between;
 }
 
 
 .info {
+    min-width: 600px;
     height: 200px;
     width: 600px;
     padding-left: 150px;
@@ -79,6 +78,7 @@ body {
 }
 .iphone-image {
     height: 480px;
+    max-width: 100%;
 }
 
 .sign-up-button {
@@ -105,13 +105,40 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
 }
 .playlist-header {
-   
+    text-align: center;
+    align-self: center;
     padding-top: 50px;
     padding-bottom: 40px;
-    text-align: center;
+    
     color: rgb(240, 240, 240);
     font-size: 40px;
 
 }
+/* third column */
+.third-column {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right bottom, #090d1b, #161d31, #212b48, #2e3a61, #3c4a7b, #3e4c81, #404e86, #43508c, #3a457e, #303a70, #273063, #1e2656);
+}
+.lyrics-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.album-cover {
+    border-radius: 20px;
+    align-self: center;
+    height: 500px;
+    width: 500px;
+}
+.rg_embed_link {
+
+    width: 200px;
+}
+
+
+
